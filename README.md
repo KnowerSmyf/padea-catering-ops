@@ -46,9 +46,9 @@ flowchart TD
     N --> E
 ```
 
-The physical delivery process is mostly unchanged: the caterer delivers food, and the on-site manager receives and distributes. This prototype focuses on improving the upstream coordination: preference capture, order generation, exception handling, confirmation tracking and backup escalation.
+### Scope note
 
-Note: the physical delivery workflow is intentionally not over-modelled. Drivers and managers still coordinate by mobile if needed. The prototype improves upstream order creation, contact visibility, confirmation tracking, exception handling and backup escalation.
+The physical delivery process is intentionally not over-modelled. In practice, the driver still delivers to the school and may contact the on-site manager by mobile if needed. The prototype focuses on the upstream coordination layer: collecting preferences, generating accurate orders, surfacing exceptions, tracking caterer confirmation, and preparing the manager with a distribution sheet.
 
 ## Setup
 
