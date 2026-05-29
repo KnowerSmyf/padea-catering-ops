@@ -1,0 +1,41 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Generated outputs
+output/
+*.log
+
+# Local data / scratch
+data/raw/
+data/processed/
+*.db
+*.sqlite
+*.sqlite3
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Idiosyncratic
+jonk/
